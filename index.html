@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM Elemek szerkeztése</h1>
+
+    <p id="atirva">Szöveg átirása</p>
+
+    <button onclick="document.getElementById('atirva').innerHTML= 'Atirva'">Atiras</button>
+
+    <h2>Lámpa fel/le</h2>
+
+    <button onclick="document.getElementById('kep').src='piros.jpg'">Piros</button>
+
+    <img id="kep" src="kék.jpg" style="width: 100px;">
+
+    <button onclick="document.getElementById('kep').src='kék.jpg'">Kék</button>
+    
+    <p id="meret">Teszt</p>
+
+    <button onclick="document.getElementById('meret').style.fontSize='50px'">Nagyobb szöveg</button>
+
+    <button onclick="document.getElementById('meret').style.color='green'">Más szín</button>
+
+    <button onclick="document.getElementById('meret').style.display='none'">Eltünik</button>
+    <button onclick="document.getElementById('meret').style.display='block'">Megjelenit</button>
+</body>
+</html>
